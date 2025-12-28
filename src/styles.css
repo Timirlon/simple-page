@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: #2c3e50;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.catalogue {
+    padding: 20px;
+}
+
+.catalogue__controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.catalogue__search,
+.catalogue__filter {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.catalogue__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.book-card {
+    background-color: white;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.book-card__image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.book-card__title {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.book-card__author {
+    color: #555;
+    font-size: 14px;
+}
+
+.book-card__category {
+    font-size: 12px;
+    color: #3498db;
+}
+
+.book-card__price {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.catalogue__empty {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    background-color: #2c3e50;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}

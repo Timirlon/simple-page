@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Catalogue</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+    <h1 class="header__title">Online Book Catalogue</h1>
+</header>
+
+<main class="catalogue">
+
+    <section class="catalogue__controls">
+        <input 
+            type="text" 
+            id="searchInput" 
+            class="catalogue__search"
+            placeholder="Search by title or author"
+        >
+
+        <select id="categoryFilter" class="catalogue__filter">
+            <option value="all">All Categories</option>
+            <option value="Programming">Programming</option>
+            <option value="Design">Design</option>
+            <option value="Business">Business</option>
+        </select>
+    </section>
+
+    <section id="bookList" class="catalogue__list">
+        <!-- Books rendered by JS -->
+    </section>
+
+    <p id="emptyMessage" class="catalogue__empty hidden">
+        No books found.
+    </p>
+
+</main>
+
+<footer class="footer">
+    <p class="footer__text">© 2025 Book Store</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
