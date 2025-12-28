@@ -49,4 +49,4 @@ This project is a simple **web-based catalogue page** that displays a list of bo
 
 ## Design Example
 
-![](https://github.com/Timirlon/simple-page/image.png)
+![](https://github.com/Timirlon/simple-page/blob/main/image.png)
